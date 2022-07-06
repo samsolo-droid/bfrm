@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+    <script src="js/modal.js" defer></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a  href="#" class="logo">
+         <!-- <i class="fa-solid fa-church"></i>Church  -->
+         <img src="./images/bfrm-logo.png" alt="logo image" height="50">
+    </a>
+
+    <nav class="navbar">
+        <a  href="./index.html" class="active">Home</a>
+        <a  href="#about">About</a>
+        <a  href="./missions.html">Missions
+            <div class="missions">
+                <span>BFRM Family</span>
+                <span>Hot For Jesus</span>
+                <span>BFRM Products</span>
+                <span>BFRM Training</span>
+            </div>
+        </a>
+        <a  href="./preaching-messages.html">Preaching</a>
+        <a  href="./events.html">Events</a>
+        <a  href="./testimonies.html">Testimonies</a>
+    </nav>
+
+    <a  href="#request-form" class="btn">Support us</a>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- Up Coming Event starts -->
+<div class="up-coming-modal-container">
+    <div class="overlay modal-trigger"></div>
+    <div class="modal">
+        <div class="content">
+            <div class="vid active">
+                <img src="./images/des-1.jpg">
+                <h3 class="title">2. Third Video Title is below 50 caracts</h3>
+            </div>
+            <div class="vid">
+                <img src="./images/des-2.jpg">
+                <h3 class="title">2. Third Video Title is below 50 caracts</h3>
+            </div>
+            <div class="vid">
+                <img src="./images/des-3.jpg">
+                <h3 class="title">2. Third Video Title is below 50 caracts</h3>
+            </div>
+            <div class="vid">
+                <img src="./images/des-4.jpg">
+                <h3 class="title">2. Third Video Title is below 50 caracts</h3>
+            </div>
+            <div class="vid">
+                <img src="./images/des-5.jpg">
+                <h3 class="title">2. Third Video Title is below 50 caracts</h3>
+            </div>
+            <div class="vid">
+                <img src="./images/des-6.jpg">
+                <h3 class="title">2. Third Video Title is below 50 caracts</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a class="up-coming btn modal-trigger"> Up Coming Events ... </a>
+
+<!-- Up Coming Event ends -->
+
+
+<!-- Preaching Message Video starts -->
+<div class="preaching-video-modal-container">
+    <div class="overlay video-trigger"></div>
+    <div class="modal">
+        <div class="close-modal video-trigger">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="content">
+            <div class="main-video">
+                <video class="video" src="images/about-vid-3.mp4" controls autoplay loop></video>
+                <h3 class="title">This is the Preaching Main Video </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="video-loaded">
+    <video class="video-trigger" src="images/about-vid-3.mp4" autoplay muted></video>
+</div>
+
+<!-- Up Coming Button ends -->
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">We exist to</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">help people find & follow Jesus</h3>
+        <p data-aos="fade-up" data-aos-delay="450">We'd love for you to join us online every sunday on facebook at 8:00 AM</p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">Come to Church</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- booking form section starts  -->
+
+<section class="book-form" id="request-form">
+    <div class="prayer-point">
+        Need to be helped in Prayer
+    </div>
+    <form action="">
+        <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+            <span>Your Name</span>
+            <input type="text" placeholder="enter your name" value="" class="name">
+            <span>Your SurName</span>
+            <input type="text" placeholder="enter your surname" value="">
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+            <span>Your prayer request</span>
+            <textarea placeholder="prayer request" value=""></textarea>
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+            <span>Your address</span>
+            <input type="text" placeholder="enter your address" value="">
+            <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="Send request" class="input-btn">
+        </div>
+    </form>
+
+</section>
+
+<!-- booking form section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+        <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>
+        <div class="controls">
+            <span class="control-btn" data-src="images/about-vid-1.mp4"></span>
+            <span class="control-btn" data-src="images/about-vid-2.mp4"></span>
+            <span class="control-btn" data-src="images/about-vid-3.mp4"></span>
+        </div>
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-delay="600">
+        <span>Welcome to, Ministère Evangélique Christ Au Secours</span>
+        <h3>BRIDE FAITH REVIVAL MISSION   FAMILLE BFRM-TOGO</h3>
+        <p>Do you want to know our vision, our testimony and more about us?</p>
+        <a href="./about.html" class="btn">Click here</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- destination section starts  -->
+
+<section class="destination" id="destination">
+
+    <div class="heading">
+        <span>Come and worship with us</span>
+        <h1>The Lord is working efficiently among us</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="images/des-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <div class="image">
+                <img src="images/des-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <div class="image">
+                <img src="images/des-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <div class="image">
+                <img src="images/des-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="750">
+            <div class="image">
+                <img src="images/des-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="900">
+            <div class="image">
+                <img src="images/des-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1150">
+            <div class="image">
+                <video src="images/des-7.mp4" muted autoplay loop>
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="1300">
+            <div class="image">
+                <video src="images/des-8.mp4" autoplay muted loop>
+            </div>
+            <div class="content">
+                <h3>Topic</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <a href="#">Read more <i class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- destination section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <div class="heading">
+        <span>We invite you to worship with us</span>
+        <h1>This is Our Sunday's Service Program</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <i class="fas fa-place-of-worship"></i>
+            <h3>Workers Meeting</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <i class="fa-solid fa-book-bible"></i>
+            <h3>sunday's School</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <i class="fa-solid fa-hands-praying"></i>
+            <h3>Praise and Worship</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+            <a href="#"></a>
+            <i class="fa-solid fa-earth-africa"></i>
+            <h3>Testimonies</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+            <i class="fa-solid fa-dove"></i>
+            <h3>The Word</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+            <i class="fa-solid fa-person-praying"></i>
+            <h3>The grace in felowship</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, cumque.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <span>Past Events</span>
+        <h1>We thank God because, He has been good to us in these events and Celebrations, </h1>
+    </div>
+    
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-1.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/gallery-img-2.PNG" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/gallery-img-3.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-4.PNG" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/gallery-img-5.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/gallery-img-6.PNG" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+            <img src="images/gallery-img-7.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="images/gallery-img-8.PNG" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="500">
+            <img src="images/gallery-img-10.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="500">
+            <img src="images/gallery-img-11.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+            <img src="images/gallery-img-9.jpg" alt="">
+            <span>Location Date</span>
+            <h3>Event Name</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <div class="content" data-aos="fade-right" data-aos-delay="300">
+        <span>Great testimonies</span>
+        <h3>That God did among us:</h3>
+        <p>We want to share some of the great testimonies that God has done for us, so you'll keep faith</p>
+    </div>
+
+    <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+
+        <div class="box">
+            <p>Summary of testimony</p>
+            <div class="user">
+                <img src="images/pic-1.png" alt="">
+                <div class="info">
+                    <h3>Name</h3>
+                    <span>Responsabilty in church</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>Summary of testimony</p>
+            <div class="user">
+                <img src="images/pic-2.png" alt="">
+                <div class="info">
+                    <h3>Name</h3>
+                    <span>Responsabilty in church</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>Summary of testimony</p>
+            <div class="user">
+                <img src="images/pic-3.png" alt="">
+                <div class="info">
+                    <h3>Name</h3>
+                    <span>Responsabilty in church</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>Summary of testimony</p>
+            <div class="user">
+                <img src="images/pic-4.png" alt="">
+                <div class="info">
+                    <h3>Name</h3>
+                    <span>Responsabilty in church</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>Up Coming Events</span>
+        <h1>In this Year</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="images/big-logo.PNG" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">EventName and Date</a>
+                <p>Event Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> Date</a>
+                    <a href="#"><i class="fas fa-user"></i> Sent by ...</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="images/blog.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">EventName and Date</a>
+                <p>Event Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> Date</a>
+                    <a href="#"><i class="fas fa-user"></i> Sent by ...</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <div class="image">
+                <img src="images/blog.png" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">EventName and Date</a>
+                <p>Event Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, natus!</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> Date</a>
+                    <a href="#"><i class="fas fa-user"></i> Sent by ...</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- banner section starts  -->
+
+<div class="banner">
+
+    <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span></span>
+        <h3>Let's together conquer all the world for Christ</h3>
+        <p>The Lord charge all of us to make everyone on this earth to be his disciple.</p>
+        <a href="#request-form" class="btn">Support us</a>
+    </div>
+
+</div>
+
+<!-- banner section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <a href="./index.html" class="logo"> <i class="fa-solid fa-church"></i>The BFRM Togo Family </a>
+            <p>Follow us on social medias</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>quick links</h3>
+            <a href="./index.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="./about.html" class="links"> <i class="fas fa-arrow-right"></i> About </a>
+            <a href="./misions.html" class="links"> <i class="fas fa-arrow-right"></i> Missions </a>
+            <a href="./preaching-messages.html" class="links"> <i class="fas fa-arrow-right"></i> Preaching </a>
+            <a href="./events.html" class="links"> <i class="fas fa-arrow-right"></i> Events </a>
+            <a href="./testimonies.html" class="links"> <i class="fas fa-arrow-right"></i> Testimonies </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> lome, togo </p>
+            <p> <i class="fas fa-phone"></i> +228 XXX-XXX-XX </p>
+            <p> <i class="fas fa-location"></i> Church Location </p>
+            <p> <i class="fas fa-clock"></i> 8:00 AM - 4:30 PM</p>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="600">
+            <h3>newsletter</h3>
+            <p>Suscribe to receive all news from the Man Of GOD</p>
+            <form action="">
+                <input type="email" name="" placeholder="entrer votre email" class="email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit">created by <span>samsolo-droid</span> | tous droits reservés!</div>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>

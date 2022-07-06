@@ -1,0 +1,35 @@
+{
+    "user": {
+        "email": "famillebfrm@gmail.com",
+        "password": "Onochie66",
+        "other-infos": []
+    },
+    "preaching_messages":[
+        {
+            "id": 1,
+            "url": "https://youtube.com/embed/foQg32Op",
+            "preacher": "Apostle Robert ONOCHIE",
+            "event": "HOT For JESUS 2022",
+            "title": "The Lord's Mercy",
+            "description": "The Lord so loves us that He renewes every morning his grace for humans",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dicta! Est enim nihil quasi sequi quos perferendis pariatur, ut at excepturi quia, officiis assumenda quam, dignissimos tempora incidunt. Quis, nihil?",
+            "date": "2022/03/04"
+        },
+        {
+            "id": 2,
+            "url": "https://youtube.com/embed/HoQ57fTU02p",
+            "preacher": "Apostle Robert ONOCHIE",
+            "event": " 2022-02-27 Sunday Service",
+            "title": "The Lord's Mercy",
+            "description": "The Lord so loves us that He renewes every morning his grace for humans",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dicta! Est enim nihil quasi sequi quos perferendis pariatur, ut at excepturi quia, officiis assumenda quam, dignissimos tempora incidunt. Quis, nihil?",
+            "date": "2022/02/27"
+        }
+    ],
+    "events":[],
+    "prayer-requests": [],
+    "testimonies": [],
+    "gallery": [],
+    "contacts": [],
+    "about": {}
+}
